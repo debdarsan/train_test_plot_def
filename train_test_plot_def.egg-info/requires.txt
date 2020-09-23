@@ -3,7 +3,6 @@ pandas
 matplotlib.pyplot
 seaborn
 itertools
-IPython.display.HTML
 sklearn.preprocessing.StandardScaler
 sklearn.model_selection.train_test_split
 sklearn.metrics.confusion_matrix
