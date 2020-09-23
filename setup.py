@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 PACKAGE_NAME = 'train_test_plot_def'
 AUTHOR = 'Dr Debdarsan Niyogi'
 AUTHOR_EMAIL = 'debdarsan.niyogi@gmail.com'
@@ -20,18 +20,8 @@ INSTALL_REQUIRES = [
       'matplotlib.pyplot',
       'seaborn',
       'itertools',
-      'IPython.display.HTML',
-      'sklearn.preprocessing.StandardScaler',
-      'sklearn.model_selection.train_test_split',
-      'sklearn.metrics.confusion_matrix',
-      'sklearn.metrics.accuracy_score',
-      'sklearn.metrics.precision_recall_fscore_support.score',
-      'sklearn.linear_model.LogisticRegression',
-      'sklearn.neighbors.KNeighborsClassifier',
-      'sklearn.svm',
-      'sklearn.tree.DecisionTreeClassifier',
-      'sklearn.ensemble.RandomForestClassifier',
-      'xgboost.XGBClassifier'
+      'sklearn',
+      'xgboost'
 ]
 
 setup(name=PACKAGE_NAME,
