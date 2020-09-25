@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.1'
+VERSION = '1.1.0'
 PACKAGE_NAME = 'train_test_plot_def'
 AUTHOR = 'Dr Debdarsan Niyogi'
 AUTHOR_EMAIL = 'debdarsan.niyogi@gmail.com'
@@ -17,9 +17,8 @@ LONG_DESC_TYPE = "text/markdown"
 INSTALL_REQUIRES = [
       'numpy',
       'pandas',
-      'matplotlib.pyplot',
+      'matplotlib',
       'seaborn',
-      'itertools',
       'sklearn',
       'xgboost'
 ]
