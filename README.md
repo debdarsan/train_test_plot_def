@@ -52,5 +52,5 @@ Performs the following operations:
 ## Files
 
 #### 1. glass.csv (exapmle dataset)
-#### 2. Example.ipynb (example usage notebook)
+#### 2. Example_def.ipynb (example usage notebook)
 #### 3. Classifier_def.ipynb (complete source code)
